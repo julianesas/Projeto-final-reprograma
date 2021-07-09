@@ -1,0 +1,132 @@
+
+.container-informações{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(241, 240, 240);
+    padding-bottom: 3rem;
+
+}
+.box_cotacao{
+    padding: 2rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    border-radius: 9px;
+    box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, .2);
+    margin-bottom: 2rem;
+   
+}
+
+.box_cotacao_title>h1{
+    font-size: min(1.5rem, 3vw);
+    color: rgb(167, 155, 155);
+    margin-left: 1rem;
+    text-align: center;
+   
+    
+}
+
+.box_cotacao_title{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-bottom: 2rem;
+}
+
+.box_cotacao_title>img{
+    width: 6%;
+}
+.container_moedas{
+    display: flex;
+    flex-direction: column;
+}
+
+.moedas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.container_moedas_img{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.container_moedas_img img{
+    width: 15%;
+    min-width: 130px;
+}
+.Dollar:before,.Peso:before {
+    content: "$";
+}
+.Euro, .Japanese, .Pound, .Bitcoin,.Renminbi, .Dollar, .Peso{
+    font-weight: bolder;
+    border-radius: 50px;
+    padding: 0.5rem;
+    border: 2px solid;
+    color: #00BFA6;
+    font-size: min(0.9rem, 2.4vw);
+
+}
+
+.Euro:before { 
+    content: "€";
+}
+.Japanese:before, 
+.Renminbi:before {
+    content: "¥";
+}
+.Pound:before {
+    content: "£"; 
+}
+
+.Bitcoin:before{
+    content: "B";
+}
+
+.none{
+    display: none;
+}
+
+
+.taxa_selic_cdi{
+    width: 220px;
+    border: 1px solid #ffff;
+    padding: 0.5rem;
+    margin: 0.4rem;
+    box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, .2);
+    background-color: #c9c0c0d2;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.taxa_selic_cdi>h1{
+    font-size: min(1rem, 3vw);
+    text-align: center;
+}
+.taxa_selic_cdi>p{
+    font-size: min(0.9rem, 3vw);
+}
+
+@media screen and (max-width: 1024px){
+    .box_cotacao{
+        width: 90%;
+        padding: 1rem;
+
+    }
+
+}
+
+

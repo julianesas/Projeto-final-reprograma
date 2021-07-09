@@ -1,0 +1,120 @@
+.pesquisar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(241, 240, 240);
+    padding-bottom: 3rem;
+
+}
+.container_pesquisar{
+    width: 100%;
+    padding: 2rem;
+    justify-content: center;
+    display: flex;
+}
+
+.material-icons{
+    color: #00BFA6;
+    font-weight: bolder;
+}
+#btn_pesquisar{
+    border: none;
+    background-color: #ffff;
+}
+
+.input_pesquisar{
+    background: #ffff;
+    width: 45%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, .2);
+}
+input{
+    width: 95%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    color: black;
+    height: 100%;
+}
+
+form{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+.dadosCompanhia{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    border-radius: 9px;
+    box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, .2);
+    padding: 3rem 4rem;
+}
+.companhia_nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.companhia_nome h1{
+    font-size: min(1.5rem, 3vw);
+    color: #00BFA6;   
+}
+
+.companhia_nome img{
+    margin-right: 1rem;
+}
+
+.resultado_dados{
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;  
+}
+
+.resultado_dados h2{
+    font-size: min(1rem, 3vw);
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+
+}
+
+.container_dados_pesquisados{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.saber_mais_Empresa{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.saber_mais_Empresa>a{
+    color: #ffff;
+    background-color: #00BFA6;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.saber_mais_Empresa>a:hover{
+    background-color: #56c7b6;
+    color:rgb(241, 238, 238);
+    box-shadow: 10px 5px 5px #c7c6c9;
+    transform: translateY(-06px);
+
+}
+
+@media screen and (max-width: 1024px){
+    .dadosCompanhia{
+        width: 90%;
+
+    }
+
+}

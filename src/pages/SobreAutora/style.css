@@ -1,0 +1,137 @@
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+.sobre_autora,.sobre_m{
+    width: 100%;
+    padding: 3rem 3rem 0 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre_autora h1,.sobre_m h1{
+    color: #70667a;
+    font-size: clamp(1rem, 1rem + 1vw, 1.6rem);
+    text-align: center;
+}
+
+.sobre_autora_resumo {
+    display: flex;
+    padding: 2rem 0;
+}
+
+.sobre_autora_resumo img {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 0.8rem;
+    margin-right: 2rem;
+}
+
+.sobre_autora_resumo p {
+    font-size: min(1.2rem, 3vw);
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: #6e6a72;
+    text-align: justify;
+}
+
+
+
+.ancoras_resumo {
+    font-weight: bolder;
+    color: #3d9781;
+    text-decoration: none;
+}
+
+.separador {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+hr {
+    display: inline-block;
+    width: 200px;
+    margin: 0;
+    border: none;
+    height: 1px;
+    background-color: #674582;
+}
+
+.sobre_m_texto {
+    margin-top: 2rem;
+}
+
+.sobre_m_texto p {
+    font-size: min(1.2rem, 3.3vw);
+    color: #58535e;
+    padding: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sobre_m_img{
+    background: linear-gradient(rgba(14, 184, 127, 0.562), rgba(39, 197, 158, 0.986));
+    height: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+     
+}
+
+.sobre_m_texto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 35%;
+    opacity: 0.8;
+}
+
+.link_date_fincance{
+    text-decoration: none;
+    color:white;
+    background-color: #61A097;
+    border-radius: 10px;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    font-weight:bolder;
+    transition: all 0.5s;
+}
+.link_date_fincance:hover {
+    background-color: #74beb3;
+    color:rgb(241, 238, 238);
+    box-shadow: 10px 5px 5px #c7c6c9;
+    transform: translateY(-06px);
+}
+.container h4{
+    border-radius: 5px;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 2rem;
+    border: 1px solid green;
+}
+
+.container>h4>a{
+    text-decoration: none;
+    color:white;
+    background-color: #62ABA2;
+    border-radius: 5px;
+    padding: 0.3rem;
+    transition: all 0.5s;
+    
+}
+
+.container>h4>a:hover{
+    background-color: #74beb3;
+    color:rgb(241, 238, 238);
+    box-shadow: 0 5px 5px #c7c6c9;
+    transform: translateY(-06px);
+    
+}
+   
+    
+
+    
