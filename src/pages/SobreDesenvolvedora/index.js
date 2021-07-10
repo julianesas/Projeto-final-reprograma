@@ -44,7 +44,7 @@ const SobreAutora = () => {
             <h1>Sobre o DateFinance</h1>
             <article className="sobre_projeto_texto">
                 <p>O projeto DateFinance foi um trabalho de conclusão do curso de Desenvolvimento Web Front-end promovido pela Reprograma. </p>
-                <p>Desenvolvi este site no intuito de unir conhecimentos tecnologicos e financeiros para informatizar pessoas. Ele trás informações das Bolsas de Valores, Cotações das ações, taxas do mercado, cotações de moedas e de Bitcoin em tempo real.</p>
+                <p>Desenvolvi este site no intuito de unir conhecimentos tecnologicos e financeiros para trazer informações importantes sobre o mercado financeiro. Ele traz informações das Bolsas de Valores, Cotações das ações, taxas do mercado, cotações de moedas e de Bitcoin em tempo real.</p>
                 <div className='sobre_projeto_img'>
                     <img src={julianeComputador} alt="foto de Juliane Andrade com Computador" />
                 </div>
