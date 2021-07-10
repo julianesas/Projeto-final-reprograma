@@ -1,10 +1,10 @@
 const dadosEmpresas = [
-    { 'RRRP3': 'Petróleo 3 R' },
-    { 'EALT3': 'Aco Altona' },
-    { 'EALT4': 'Aco Altona' },
-    { 'ADHM3': 'Dh avançado' },
-    { 'AERI3': 'Aeris' },
-    { 'AESB3': 'Aes Brasil' },
+    { RRRP3: 'Petróleo 3 R' },
+    { EALT3: 'Aco Altona' },
+    { EALT4: 'Aco Altona' },
+    { ADHM3: 'Dh avançado' },
+    { AERI3: 'Aeris' },
+    { AESB3: 'Aes Brasil' },
     { TIET11: 'Aes Tietê E ' },
     { TIET3: 'Aes Tietê E ' },
     { TIET4: 'Aes Tietê E ' },
@@ -501,7 +501,6 @@ const dadosEmpresas = [
     { WIZS3: 'Wiz Solucoes e Corretagem de Seguros SA ' },
     { WLMM3: 'Wlm Ind Com ' },
     { WLMM4: 'Wlm Ind Com ' }
-
 ]
 
 export default dadosEmpresas

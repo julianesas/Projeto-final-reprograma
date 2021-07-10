@@ -4,7 +4,7 @@ const ContainerDados =(props)=>{
     return(
         <div className='container_dados'>
             <div className='container_dados_titulo'>
-                 <span className={props.class}></span>
+                 <span className={props.classSpam}></span>
                 <h1 className={props.classTitulo}>{props.nome}</h1>
             </div>
             

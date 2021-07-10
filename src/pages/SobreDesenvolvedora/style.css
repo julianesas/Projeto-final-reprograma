@@ -1,0 +1,226 @@
+.sobre_desenvolvedora{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    background: rgb(241, 240, 240);
+    padding-bottom: 3rem;
+}
+.sobre_desenvolvedora> div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    border-radius: 9px;
+    box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, .2);
+    margin-top: 1rem;
+
+}
+
+.container {
+    margin: 0 auto;
+   
+   
+}
+.sobre_dev{
+    padding:  3rem 1rem;
+
+}
+.container_ancoras{
+    margin-top: 0.8rem;
+}
+.sobre_dev,.sobre_projeto{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre_dev h1,.sobre_projeto h1{
+    color: #70667a;
+    font-size: clamp(1rem, 1rem + 1vw, 1.6rem);
+    text-align: center;
+}
+
+.sobre_dev_resumo {
+    display: flex;
+    padding: 2rem 0;
+}
+
+.sobre_dev_resumo img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.8rem;
+    margin-right: 2rem;
+}
+
+.sobre_dev_resumo p {
+    font-size: min(1.1rem, 3vw);
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: #6e6a72;
+    text-align: justify;
+}
+
+.ancoras_resumo {
+    font-weight: bolder;
+    color: #3d9781;
+    text-decoration: none;
+}
+
+.separador {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+hr {
+    display: inline-block;
+    width: 200px;
+    margin: 0;
+    border: none;
+    height: 1px;
+    background-color: #674582;
+}
+
+.sobre_projeto_texto {
+    margin-top: 2rem;
+}
+
+.sobre_projeto_texto p {
+    font-size: min(1.1rem, 3.3vw);
+    color: #58535e;
+    padding: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sobre_projeto_img{
+    background: linear-gradient(rgba(14, 184, 127, 0.562), rgba(39, 197, 158, 0.986));
+    height: 17rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+     
+}
+
+.sobre_projeto_texto img {
+    width: 100%;
+    height: 17rem;
+    object-fit: cover;
+    object-position: center 35%;
+    opacity: 0.8;
+}
+
+.link_date_finance{
+    color: #ffff;
+    background-color: #00BFA6;
+    border-radius: 5px;
+    padding: 0.2rem 0.3rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-size: min(1.1rem, 2.8vw);
+    margin-left: 1rem;
+
+}
+.link_date_fincance:hover {
+    background-color: #74beb3;
+    color:rgb(241, 238, 238);
+    box-shadow: 10px 5px 5px #c7c6c9;
+    transform: translateY(-06px);
+}
+.container h4{
+    font-size: min(1rem, 2.8vw);
+    border-radius: 5px;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 2rem;
+    border: 1px solid rgb(14, 158, 134);
+}
+
+.container>h4>a{
+    text-decoration: none;
+    color:white;
+    background-color: #62ABA2;
+    border-radius: 5px;
+    padding: 0.2rem;
+    transition: all 0.5s; 
+}
+
+.container>h4>a:hover{
+    background-color: #74beb3;
+    color:rgb(241, 238, 238);
+    box-shadow: 0 5px 5px #c7c6c9;
+    transform: translateY(-06px);
+    
+}
+@media screen and (max-width: 1100px){
+    .sobre_desenvolvedora> div{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .sobre_dev_resumo img {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 0.8rem;
+        margin-right: 1rem;
+    }
+    .sobre_dev,.sobre_projeto{
+        width: 90%;
+    }
+    .sobre_dev{
+        padding:  2rem 1rem;
+    
+    }
+    .sobre_dev_resumo {
+        padding: 1rem 0;
+    }
+}
+    
+
+@media screen and (max-width: 720px){
+    .sobre_dev_resumo img {
+        width: 6.3rem;
+        height: 6.3rem;
+        border-radius: 0.8rem;
+        margin-right: 0.2rem;
+
+    }
+    .sobre_projeto_texto img {
+        height: 11rem;
+    }
+    .sobre_projeto_img{
+        height: 11rem;
+
+    }
+    .container h4{
+        border-radius: 5px;
+        margin-left: 1rem;
+        padding: 0.5rem;
+        text-align: center;
+        margin: 2rem;
+        border: 1px solid rgb(21, 153, 131);
+        line-height:1.8;
+    }
+    .container>h4>a{
+        text-decoration: none;
+        color:white;
+        background-color: #62ABA2;
+        border-radius: 5px;
+        padding: 0.1rem;
+        transition: all 0.5s;
+        line-height:1.8; 
+    }
+    .sobre_dev{
+        padding:  1rem 1rem;
+    
+    }
+}
+
+  
+  

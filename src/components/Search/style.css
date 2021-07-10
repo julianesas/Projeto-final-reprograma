@@ -4,12 +4,12 @@
     flex-direction: column;
     align-items: center;
     background: rgb(241, 240, 240);
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 
 }
 .container_pesquisar{
     width: 100%;
-    padding: 2rem;
+    padding: 3rem 0 1rem 0;
     justify-content: center;
     display: flex;
 }
@@ -35,11 +35,10 @@
 }
 input{
     width: 95%;
-    padding: 1rem;
+    padding: 1.1rem;
     border: none;
     outline: none;
     color: black;
-    height: 100%;
 }
 
 form{
@@ -65,30 +64,44 @@ form{
 
 .companhia_nome h1{
     font-size: min(1.5rem, 3vw);
-    color: #00BFA6;   
+    color: rgb(167, 155, 155);
 }
 
 .companhia_nome img{
     margin-right: 1rem;
+    width: 6%;
+}
+
+.icone-empresa{
+    font-size: min(2rem, 3vw);
+
 }
 
 .resultado_dados{
     display: flex;
     margin-bottom: 1rem;
-    align-items: center;  
+    align-items: center; 
 }
 
 .resultado_dados h2{
-    font-size: min(1rem, 3vw);
+    font-size: min(1rem, 2.9vw);
     margin-right: 0.3rem;
     margin-left: 0.3rem;
 
 }
 
 .container_dados_pesquisados{
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     flex-wrap:wrap;
+    width: 90%
+    margin;
+}
+
+.container_dados_pesquisados p{
+    font-size: min(1rem, 2.9vw);
+
 }
 .saber_mais_Empresa{
     text-align: center;
@@ -102,6 +115,7 @@ form{
     padding: 0.5rem;
     text-decoration: none;
     transition: all 0.5s;
+    font-size: min(1.1rem, 2.9vw);
 }
 .saber_mais_Empresa>a:hover{
     background-color: #56c7b6;
@@ -114,7 +128,37 @@ form{
 @media screen and (max-width: 1024px){
     .dadosCompanhia{
         width: 90%;
-
+    }
+    .saber_mais_Empresa{
+        text-align: center;
+        margin-top: 1rem;
     }
 
 }
+@media screen and (max-width: 900px){
+    .dadosCompanhia{
+        padding: 2rem 2rem;
+    }
+    .input_pesquisar{
+        background: #ffff;
+        width: 60%;
+    }
+    .container_pesquisar{
+        padding: 1.5rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .input_pesquisar{
+        background: #ffff;
+        width: 75%;
+    }
+    input{
+        width: 95%;
+        padding: 0.9rem;
+        
+    }
+}
+
+
+
+

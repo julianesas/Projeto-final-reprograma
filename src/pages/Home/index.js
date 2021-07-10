@@ -1,4 +1,4 @@
-import Navbar from '../../components/Navbar/Navbar'
+import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import Search from '../../components/Search'
 import { useEffect, useState } from 'react'
@@ -35,6 +35,8 @@ const Home = ()=>{
              console.log(dados.results.taxes[0])
         })    
     },[])
+
+   
     
     return(
         <>
@@ -63,7 +65,7 @@ const Home = ()=>{
                                     <div key={item} className={item==='source'? 'none': item}>
                                          
                                         <ContainerDados
-                                        class={(moedas[item].name)} 
+                                        classSpam={(moedas[item].name)} 
                                         classTitulo='white'
                                         nome={(moedas[item].name)} 
                                         titulo1='Valor para compra:' valor1={(moedas[item].buy)}

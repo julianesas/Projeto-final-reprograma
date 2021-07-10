@@ -18,7 +18,7 @@ const Footer =()=>{
                         <Link className="links-rodape" to="/dicionariofinanceiro">Dicionário financeiro</Link>
                     </li>
                     <li key='3'>
-                        <Link className="links-rodape" to="/sobreautora">Sobre a Autora</Link>
+                        <Link className="links-rodape" to="/sobredesenvolvedora">Sobre a Desenvolvedora</Link>
                     </li>
                 </ul>
                 <div className="rodape__logo ">

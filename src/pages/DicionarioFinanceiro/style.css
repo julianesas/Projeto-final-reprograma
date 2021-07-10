@@ -35,7 +35,7 @@
     align-items: center;
 }
 .titulo_palavra h1{
-    font-size: min(1.5rem, 4vw);
+    font-size: min(1.5rem, 3.9vw);
     color: rgb(121, 117, 117);
     margin-left: 1rem;
 }
@@ -45,7 +45,7 @@
     text-align: justify;
 }
 .titulo_palavra img{
-    min-width: 40px;
+    min-width: 7%;
     width: 07%;
 }
 .btn_dicionario{
@@ -56,11 +56,11 @@
 .btn_dicionario a{
     text-decoration: none;
     color:white;
-    font-size: 0.9rem;
+    font-size: min(1rem, 2.9vw);
     background-color: #61A097;
-    border-radius: 10px;
+    border-radius: 9px;
     margin-left: 1rem;
-    padding: 0.8rem;
+    padding: 0.7rem;
     font-weight:bolder;
     transition: all 0.5s;
     
@@ -71,4 +71,14 @@
     box-shadow: 10px 5px 5px #c7c6c9;
     transform: translateY(-06px);
 }
+
+@media screen and (max-width: 1024px){
+    .dicionario{
+        width: 90%;
+        padding: 1rem;
+
+    }
+
+}
+
 

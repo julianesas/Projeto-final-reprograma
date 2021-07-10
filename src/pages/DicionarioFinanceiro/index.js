@@ -1,5 +1,5 @@
 
-import Navbar from '../../components/Navbar/Navbar'
+import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import { useEffect, useState } from 'react'
 import Banner from '../../components/Banner'
@@ -32,7 +32,7 @@ const DicionarioFinanceiro = ()=>{
                 <div className="dicionario">
                 {dicionario.map(item=>{
                     return(
-                        <div className="palavra">
+                        <div className="palavra" key={item.palavra}>
                             <div className="titulo_palavra">
                                 <img src={Dicionario} alt="Logo dicionario" />
                                 <h1>{item.palavra}</h1>

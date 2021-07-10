@@ -37,6 +37,8 @@
     min-width: 270px;
     opacity: 0.8;
     margin-right: 1rem;
+    max-width: 650px;
+    max-height: max-content;
 }
 @media screen and (max-width: 1024px){
     .container_banner{
@@ -48,6 +50,7 @@
         justify-content: space-evenly;
 
     }
+    
     .container_banner div{
         padding-right: 0;
         margin-top: 1.5rem;
@@ -60,6 +63,7 @@
     }
     .container_banner img{
         width: 60%;
+        height: max-content;
         margin-right:0;
     }
 }
