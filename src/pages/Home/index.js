@@ -25,15 +25,17 @@ const Home = ()=>{
     const [taxas, setTaxas]=useState({})
 
     useEffect(()=>{
-        fetch('https://api.hgbrasil.com/finance?format=json-cors&key=310fa971')
-        .then(response => response.json())
-        .then(dados =>{
-            setMoedas(dados.results.currencies)
+    async function loadApi(){
+        const response= await fetch('https://api.hgbrasil.com/finance?format=json&key=310fa971');
+        const dados = await response.json()
+        setMoedas(dados.results.currencies)
             setBitcoin(dados.results.bitcoin)
             setStoks(dados.results.stocks)
             setTaxas(dados.results.taxes[0])
              console.log(dados.results.taxes[0])
-        })    
+    }
+    loadApi()
+           
     },[])
 
    
