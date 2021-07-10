@@ -26,7 +26,7 @@ const Search = () => {
     console.log(pesquisar.clicked)
     
     function handleSubmit(){
-        fetch(`https://api.hgbrasil.com/finance/stock_price?format=json-cors&key=310fa971&symbol=${nomeEmpresa}`)
+        fetch(`https://api.hgbrasil.com/finance/stock_price?format=json-cors&key=21de1d7a&symbol=${nomeEmpresa}`)
             .then(response => response.json())
             .then(dados =>{
                 nomeEmpresa.toUpperCase()
