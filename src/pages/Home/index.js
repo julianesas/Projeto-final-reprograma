@@ -26,7 +26,9 @@ const Home = ()=>{
 
     useEffect(()=>{
     async function loadApi(){
-        const response= await fetch('https://api.hgbrasil.com/finance?format=json&key=310fa971');
+        const response= await fetch('https://api.hgbrasil.com/finance?format=json-cors&key=310fa971',{
+            mode: 'no-cors'
+       });
         const dados = await response.json()
         setMoedas(dados.results.currencies)
             setBitcoin(dados.results.bitcoin)
@@ -38,7 +40,6 @@ const Home = ()=>{
            
     },[])
 
-   
     
     return(
         <>
