@@ -25,7 +25,7 @@ const DicionarioFinanceiro = ()=>{
             />
             <Banner 
                 titulo='Dicionário das informações'
-                subtitulo='Encontre os significados das informações financeiras presentes no DateFinance!!'
+                subtitulo='Encontre os significados das informações financeiras presentes no DataFinance!!'
                 imagemBanner={Livro}
             />
             <main className="container_dicionario">

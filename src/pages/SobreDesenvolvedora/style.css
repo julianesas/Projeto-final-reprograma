@@ -113,7 +113,7 @@ hr {
     opacity: 0.8;
 }
 
-.link_date_finance{
+.link_data_finance{
     color: #ffff;
     background-color: #00BFA6;
     border-radius: 5px;
@@ -125,7 +125,7 @@ hr {
     margin-left: 1rem;
 
 }
-.link_date_fincance:hover {
+.link_data_fincance:hover {
     background-color: #74beb3;
     color:rgb(241, 238, 238);
     box-shadow: 10px 5px 5px #c7c6c9;

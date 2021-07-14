@@ -6,7 +6,7 @@ const Logo =(props)=>{
     return(
         <div className={props.classLogo}>
             <img src={LogoSite} alt="ìcone do globo Terra" /> 
-            <h1>Date<strong>Finance</strong></h1>
+            <h1>Data<strong>Finance</strong></h1>
         </div>
     )
 }

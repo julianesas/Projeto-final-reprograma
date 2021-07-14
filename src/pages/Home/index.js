@@ -43,7 +43,7 @@ const Home = ()=>{
         <>
             <Navbar />
             <Banner 
-            titulo='DateFinance'
+            titulo='DataFinance'
             subtitulo='Obtenha dados econômicos em tempo real. Preço e variação de ações, Cotações de moedas, Bitcoin, índices das principais bolsas!!'
             imagemBanner={dadosFinanceiros}
             />
