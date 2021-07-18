@@ -83,6 +83,7 @@ form{
     align-items: center; 
 }
 
+
 .resultado_dados h2{
     font-size: min(1rem, 2.9vw);
     margin-right: 0.3rem;
@@ -157,6 +158,9 @@ form{
         padding: 0.9rem;
         
     }
+    ::-webkit-input-placeholder { 
+        font-size: 0.8rem;
+      }
    
 }
 
