@@ -49,11 +49,10 @@
 }
 
 .links-rodape:hover{
-    background-color: white;
+    background-color: rgb(194, 190, 190);
     border-radius: 4px;
     transition: all 0.2s ease-out;
-    color:#00BFA6;
-    font-size:  min(1.3rem, 3vw);
+    font-size:  min(0.9rem, 3vw);
 }
 
 .logo-rodape{

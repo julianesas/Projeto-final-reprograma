@@ -51,7 +51,7 @@ const Search = () => {
             <div className='container_pesquisar'>
                 <div className='input_pesquisar'>
                     <form>
-                        <input list="opcoes" name="Empresas" onChange={handleChange} placeholder='Pesquise o Valor de uma ação'/>
+                        <input list="opcoes" name="Empresas" onChange={handleChange} placeholder='Pesquise o valor de uma ação'/>
                         <datalist id="opcoes" className='ui-autocomplete'>
                             {dadosEmpresas.map(function (objeto) {
                                 let empresa = Object.keys(objeto)[0]

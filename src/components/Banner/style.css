@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 940px){
     .container_banner>div>p{
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -87,6 +87,9 @@
         width: 70%;
         margin-right:0;
         padding: 0;
+    }
+    .container_banner>div>p{
+        width: 100%;
     }
 
 }
