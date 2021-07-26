@@ -12,6 +12,10 @@ Foi desenvolvido no intuito de juntar os conhecimentos adquiridos na minha área
 * Consumo de API's Rest com fetch
 * react-router-dom
 
+## Pré-visualização do projeto
+
+https://date-finance.netlify.app/
+
 ## 📁 Arquitetura 
 
 ```
