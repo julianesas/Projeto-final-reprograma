@@ -1,4 +1,4 @@
-# Projeto DateFinance
+# Projeto FinanceData
 
 O projeto trata-se de uma página web que faz requisições a APIs retornando informações economicas-financeiras em tempo real (informações sobre bolsa de valores, ações,taxas de juros do Brasil, cotações de Bitcoin. 
 Foi desenvolvido no intuito de juntar os conhecimentos adquiridos na minha área de formação(contabilidade, e pós em finanças e controladoria) com os adquiridos durante o curso de Desenvolvimento web Front-end promovido pela reprograma, para trazer indormações importantes a respeito do mercado financeiro. 
@@ -15,7 +15,7 @@ Foi desenvolvido no intuito de juntar os conhecimentos adquiridos na minha área
 ## 📁 Arquitetura 
 
 ```
- 📁 Date-Finance
+ 📁 FinanceData
    |
    |-  📁 src
    |    |
